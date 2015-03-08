@@ -1,5 +1,3 @@
 <?php
 
-echo "under construction";
-
-echo "hello";
+echo "I'll be back";
