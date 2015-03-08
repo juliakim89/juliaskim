@@ -1,0 +1,139 @@
+/*
+
+Template name: Me
+Author: Magna Themes
+Support: http://www.magna-themes.com/support
+
+*/
+
+
+/*  1. GENERAL COLORS AND FONTS
+================================================*/
+body {
+     font-family: 'Muli', sans-serif; /* Default font family for the entire document */
+     font-size: 15px; /* Default font size for the entire document */
+     color: #666; /* Default colors for the fonts */
+     background: #FFF; /* Background color */
+}
+
+/* Links */
+a, .link {
+     color: #898989; /* Default color for the links */
+}
+/* Selection */
+::selection, ::-moz-selection{
+     background: #272727;
+     color: #FFF;
+}
+/* Links */
+h1, h2,  h3, h4, h5, h6, h1 a, h2 a,  h3 a, h4 a, h5 a, h6 a {
+     color: #333;
+     font-family: 'Courier New', arial, verdana;
+     font-weight: normal;
+}
+
+/* Color for the big titles e.g.: OUR WORK */
+div.title h2 {
+     color: #232323;
+     font-family: 'Courier New', arial, verdana;
+     font-size: 18px;
+}
+/* Background color of the big titles. Should be same as the body */
+div.title h2 span { background: #fff; }
+
+
+
+/*  2. NAVIGATION
+================================================*/
+ul.menu {
+     border-top: 1px solid #eee; /* The color of the line above the menu items */
+     border-bottom: 1px solid #eee; /* The color of the line below the menu items */
+}
+/* Below you can set the font family and font size of the menu items */
+ul.menu li {
+     font-size: 14px;
+     font-family: 'Courier New', 'Times New Roman', serif; /* Replaced by cufon */
+}
+
+/* Colors of the menu items */
+ul.menu li a { color: #272727; }
+ul.menu li a:hover { color: #666; }
+
+/* Styles addressed to the second menu */
+div#hidden_menu { background: #eee; }
+div#hidden_items ul li { font-family: 'Courier New', 'Times New Roman', serif; font-size: 14px;} /* Replaced by cufon */
+div#hidden_items ul li a { color: #000; }
+
+
+
+/*  3. INTRO ( The text below the navigation )
+================================================*/
+#intro { 
+     font-family: 'Muli', sans-serif;
+     color: #414141; 
+}
+
+
+
+/*  4. PORTFOLIO
+================================================*/
+
+/* Below you can change the style of the filter links */
+ul#portfolioFilter li a {
+     font-family: 'Muli', sans-serif;
+     font-size: 12px;
+     text-transform: uppercase;
+     color: #333;
+}
+/* The color of the active portfolio filter link */
+ul#portfolioFilter li.active a { color: #999; }
+
+
+
+/*  5. SERVICES
+================================================*/
+
+/* Border and background colors of the "big circles" */
+.icon_container { border: 1px solid #272727; }
+.icon { background: #272727; }
+
+/* The text, under the service title */
+.services_intro p {
+     color: #414141;
+     font-family: 'Muli', sans-serif;
+}
+
+
+
+/*  6. ABOUT
+================================================*/
+
+#about h3 {
+	font-family: 'Muli', sans-serif;
+}
+
+#about p {
+     font-size: 14px; 
+     color: #414141; 
+     font-family: 'Muli', sans-serif;
+}
+
+
+/*  7. CONTACT
+================================================*/
+#contact_form input[type="text"], #contact_form textarea {
+     font-size: 12px;
+     font-family: 'Muli', sans-serif;
+     color: #333;
+     border-bottom: 1px dashed #CCC;
+}
+
+#contact_form button { 
+     background: #272727; 
+     font-family: 'Muli', sans-serif;
+     font-size: 14px; 
+     color: #FFF; 
+}
+
+#contact_info p { font-family: 'Muli', sans-serif; font-size: 12px; }
+#contact_info ul { font-family: 'Muli', sans-serif; font-size: 12px; }
