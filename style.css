@@ -1,0 +1,21 @@
+
+#logo { 
+	margin-top : 100px;
+	text-align: center; 
+}
+#logo img { 
+	display :block;
+	margin : auto;
+	max-width: 300px;
+}
+#logo a {
+	font-family : 'Helvetica Neue', 'Arial';
+	font-size : 13px;
+	color : #ccc;
+	text-decoration: none;
+}
+
+#logo a:hover {
+	color : #888;
+	border-bottom : 1px solid #ccc;
+}
