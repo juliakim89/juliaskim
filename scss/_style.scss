@@ -1,4 +1,4 @@
-
+// Header
 header { 
     text-align: center; 
 
@@ -10,6 +10,14 @@ header {
 
 }
 
+#photoswipe {
+    margin-top : 30px;
+    figure {
+        margin : 0;
+    }
+}
+
+// Footer
 footer {
     position : absolute;
     bottom : 100px;

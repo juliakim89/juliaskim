@@ -9169,6 +9169,15 @@ header img {
 }
 
 /* line 13, ../scss/_style.scss */
+#photoswipe {
+  margin-top: 30px;
+}
+/* line 15, ../scss/_style.scss */
+#photoswipe figure {
+  margin: 0;
+}
+
+/* line 21, ../scss/_style.scss */
 footer {
   position: absolute;
   bottom: 100px;
@@ -9177,14 +9186,14 @@ footer {
   margin: auto;
   text-align: center;
 }
-/* line 20, ../scss/_style.scss */
+/* line 28, ../scss/_style.scss */
 footer a {
   font-family: 'Quattrocento', serif;
   font-size: 13px;
   color: #ccc;
   text-decoration: none;
 }
-/* line 25, ../scss/_style.scss */
+/* line 33, ../scss/_style.scss */
 footer a:hover {
   color: #888;
   border-bottom: 1px solid #ccc;
