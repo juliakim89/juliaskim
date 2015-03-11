@@ -9198,3 +9198,15 @@ footer a:hover {
   color: #888;
   border-bottom: 1px solid #ccc;
 }
+
+@media only screen and (max-width: 40em) {
+  /* line 42, ../scss/_style.scss */
+  header img {
+    margin: 50px auto 0;
+  }
+
+  /* line 46, ../scss/_style.scss */
+  footer {
+    bottom: 50px;
+  }
+}
