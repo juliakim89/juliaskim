@@ -26,13 +26,13 @@ footer {
     margin : auto;
     text-align : center;
     a {
-        font-family : 'Quattrocento', serif;
-        font-size : 13px;
-        color : #ccc;
+        font-family : $font-family-sans;
+        font-size : $paragraph-font-size;
+        color : $light-grey;
         text-decoration: none;
         &:hover {
-            color : #888;
-            border-bottom : 1px solid #ccc;
+            color : $grey;
+            border-bottom : 1px solid $light-grey;
         }
     }
 }

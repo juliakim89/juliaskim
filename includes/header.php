@@ -12,7 +12,7 @@
         <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/apple_114x114-precomposed.png">
     
         <!-- Stylesheets -->
-        <link rel="stylesheet" href="stylesheets/app.css" />
+        <link rel="stylesheet" href="css/app.css" />
         <link rel="stylesheet" href="bower_components/photoswipe/dist/photoswipe.css">
         <link rel="stylesheet" href="bower_components/photoswipe/dist/default-skin/default-skin.css"> 
 
