@@ -1,4 +1,4 @@
-<footer class="row">
+				<footer class="row">
             <a href="mailto:juliakim89@gmail.com">juliakim89@gmail.com</a>
         </footer>
         

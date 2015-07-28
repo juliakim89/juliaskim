@@ -2510,55 +2510,89 @@ p {
 header {
   text-align: center;
 }
-/* line 49, scss/_style.scss */
-header img {
+/* line 48, scss/_style.scss */
+header #logo {
+  position: relative;
+  z-index: 10;
+}
+/* line 51, scss/_style.scss */
+header #logo img {
   display: block;
-  margin: 100px auto 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 5rem auto 0;
   width: 200px;
 }
+/* line 61, scss/_style.scss */
+header #nav {
+  margin: 8rem auto 0;
+}
+/* line 63, scss/_style.scss */
+header #nav ul {
+  margin-left: 0;
+  padding-left: 0;
+}
+/* line 67, scss/_style.scss */
+header #nav ul li, header #nav ul a {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0 .5rem;
+  color: #888888;
+}
 
-/* line 57, scss/_style.scss */
+/* line 81, scss/_style.scss */
 footer {
-  position: absolute;
-  bottom: 150px;
+  position: fixed;
+  bottom: 5rem;
   left: 0;
   right: 0;
   margin: auto;
   text-align: center;
 }
-/* line 64, scss/_style.scss */
+/* line 88, scss/_style.scss */
 footer a {
   display: inline-block;
   font-size: 0.9rem;
 }
 
-/* line 71, scss/_style.scss */
+/* line 95, scss/_style.scss */
 #home {
   text-align: center;
 }
-/* line 73, scss/_style.scss */
+/* line 97, scss/_style.scss */
 #home h1 {
   padding: 30px;
   color: #222222;
   font-size: 2rem;
 }
 
-/* line 82, scss/_style.scss */
+/* line 105, scss/_style.scss */
+#shop-home {
+  margin: 3rem auto;
+}
+/* line 107, scss/_style.scss */
+#shop-home div {
+  margin-bottom: 2rem;
+}
+
+/* line 114, scss/_style.scss */
 #photoswipe {
   margin-top: 30px;
 }
-/* line 84, scss/_style.scss */
+/* line 116, scss/_style.scss */
 #photoswipe figure {
   margin: 0;
 }
 
 @media only screen and (max-width: 40em) {
-  /* line 92, scss/_style.scss */
+  /* line 124, scss/_style.scss */
   header img {
     margin: 50px auto 0;
   }
 
-  /* line 96, scss/_style.scss */
+  /* line 128, scss/_style.scss */
   footer {
     bottom: 50px;
   }

@@ -27,3 +27,23 @@
     </head>
   
     <body>
+
+    <header>
+
+        <section id="logo" class="row">
+            <a href="/">
+                <img src="images/logo.png" alt="Julia S. Kim Logo" />
+            </a>
+        </section>
+
+        <!-- <section id="nav" class="row">
+            <ul>
+                <li><a href="shop.php">Shop</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </section> -->
+
+    </header>
+
+    <?php include('includes/nav.php'); ?>

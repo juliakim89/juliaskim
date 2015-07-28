@@ -45,18 +45,42 @@ p {
 // Header
 header { 
     text-align: center; 
+    #logo {
+        position : relative;
+        z-index : 10;
+        img {
+            display : block;
+            position : fixed;
+            top : 0;
+            left : 0;
+            right : 0;
+            margin : 5rem auto 0;
+            width : 200px;
+        }
+    }
+    #nav {
+        margin : 8rem auto 0;
+        ul {
+            margin-left : 0;
+            padding-left : 0;
 
-    img {
-        display :block;
-        margin : 100px auto 0;
-        width : 200px;
+            li, a {
+                display : inline-block;
+                list-style-type : none;
+                margin : 0 .5rem;
+                color : $grey;
+            }
+        }
     }
 }
 
+// Body
+
+
 // Footer
 footer {
-    position : absolute;
-    bottom : 150px;
+    position : fixed;
+    bottom : 5rem;
     left : 0;
     right : 0;
     margin : auto;
@@ -74,6 +98,14 @@ footer {
         padding : 30px;
         color : $black;
         font-size : 2rem;
+    }
+}
+
+// shop home
+#shop-home {
+    margin : 3rem auto;
+    div {
+        margin-bottom : 2rem;
     }
 }
 
