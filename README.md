@@ -1,29 +1,34 @@
-# Foundation Compass Template
+![](http://i.imgur.com/5Bqs5zi.png)
 
-The easiest way to get started with Foundation + Compass.
+React boilerplate thenewboston tutorials.
 
-## Requirements
+## Getting started
 
-  * Ruby 1.9+
-  * [Node.js](http://nodejs.org)
-  * [compass](http://compass-style.org/): `gem install compass`
-  * [bower](http://bower.io): `npm install bower -g`
+To get started simply download the repo using the link below. All required files are included.
 
-## Quickstart
+https://github.com/buckyroberts/React-Boilerplate/archive/master.zip
 
-  * [Download this starter compass project and unzip it](https://github.com/zurb/foundation-compass-template/archive/master.zip)
-  * Run `bower install` to install the latest version of Foundation
-  
-Then when you're working on your project, just run the following command:
+## Setting up Gulp (optional)
 
-```bash
-bundle exec compass watch
+You can also use Gulp to add additional build tasks. To use, follow the instructions below.
+
+Navigate to the root directory and  run the following command:
+```
+> npm install
 ```
 
-## Upgrading
-
-If you'd like to upgrade to a newer version of Foundation down the road just run:
-
-```bash
-bower update
+After modules are installed, you can start watching for SCSS changes using the command:
 ```
+> gulp
+```
+
+You can install more modules and configure them in the **gulpfile.js** file as needed.
+
+## Links
+
+- [Support thenewboston](https://www.patreon.com/thenewboston)
+- [thenewboston.com](https://thenewboston.com/)
+- [Facebook](https://www.facebook.com/TheNewBoston-464114846956315/)
+- [Twitter](https://twitter.com/bucky_roberts)
+- [Google+](https://plus.google.com/+BuckyRoberts)
+- [reddit](https://www.reddit.com/r/thenewboston/)
