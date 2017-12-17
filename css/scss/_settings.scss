@@ -76,22 +76,22 @@ $include-html-global-classes: $include-html-classes;
 // b. Grid
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 
-$include-html-grid-classes: $include-html-classes;
-$include-xl-html-grid-classes: false;
+// $include-html-grid-classes: $include-html-classes;
+// $include-xl-html-grid-classes: false;
 
-$row-width: rem-calc(1000);
-$total-columns: 12;
-$column-gutter: rem-calc(30);
+// $row-width: rem-calc(1400);
+// $total-columns: 12;
+// $column-gutter: rem-calc(30);
 
-$last-child-float: $opposite-direction;
+// $last-child-float: $opposite-direction;
 
 // c. Global
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 
 // We use these to define default font stacks
-$font-family-sans: "proxima-nova-regular", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-$font-family-sans-light: "proxima-nova-light", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-$font-family-sans-semi: "proxima-nova-semi", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+$font-family-sans: "frank-new-regular", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+$font-family-sans-light: "frank-new-light", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+$font-family-sans-semi: "frank-new-medium", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
 $font-family-serif: "Quattrocento", Georgia, Cambria, "Times New Roman", Times, serif;
 $font-family-monospace: Consolas, "Liberation Mono", Courier, monospace;
 
@@ -100,11 +100,17 @@ $font-weight-normal: normal;
 $font-weight-bold: bold;
 
 $white       : #FFFFFF;
-$black       : #222222;
-$dark-grey   : #444444;
-$grey        : #888888;
-$light-grey  : #CCCCCC;
+$black       : #111111;
 $gold        : #CAA228;
+$primary     : #354E60;
+
+$grey-100    : #F5F5F5;
+$grey-200    : #E4E4E4;
+$grey-500    : #888888;
+$grey-600    : #444444;
+
+
+
 // $ghost       : #FAFAFA;
 // $snow        : #F9F9F9;
 // $vapor       : #F6F6F6;
@@ -133,14 +139,14 @@ $gold        : #CAA228;
 // $info-color: #a0d3e8;
 
 // We use these to control various global styles
-// $body-bg: $white;
-// $body-font-color: $jet;
-// $body-font-family: $font-family-sans-serif;
-// $body-font-weight: $font-weight-normal;
-// $body-font-style: normal;
+$body-bg: $white;
+$body-font-color: $black;
+$body-font-family: $font-family-sans;
+$body-font-weight: $font-weight-normal;
+$body-font-style: normal;
 
 // We use this to control font-smoothing
-// $font-smoothing: antialiased;
+$font-smoothing: antialiased;
 
 // We use these to control text direction settings
 $text-direction: ltr;
@@ -156,6 +162,33 @@ $last-child-float: $opposite-direction;
 // $shiny-edge-size: 0 1px 0;
 // $shiny-edge-color: rgba($white, .5);
 // $shiny-edge-active-color: rgba($black, .2);
+
+html {
+  background: $primary;
+}
+
+// Default body styles
+body {
+  height: auto;
+  background: $body-bg;
+  color: $body-font-color;
+  padding: 0;
+  margin: 0;
+  font-family: $body-font-family;
+  font-weight: $body-font-weight;
+  font-style: $body-font-style;
+  line-height: $base-line-height; // Set to $base-line-height to take on browser default of 150%
+  position: relative;
+  cursor: $cursor-auto-value;
+
+  @media #{$large-up} {
+    padding: 0;
+  }
+}
+
+.content {
+  padding: 1em;
+}
 
 // d. Media Query Ranges
 // - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -205,37 +238,34 @@ $large: $large-up;
 $cb : 2;
 
 @font-face {
-    font-family: "proxima-nova-semi";
-    src: url("/css/fonts/proxima-nova/semi/webfont.eot?v=#{$cb}");
-    src: url("/css/fonts/proxima-nova/semi/webfont.eot?v=#{$cb}iefix") format("embedded-opentype"),
-       url("/css/fonts/proxima-nova/semi/webfont.woff2?v=#{$cb}") format("woff2"),
-       url("/css/fonts/proxima-nova/semi/webfont.woff?v=#{$cb}") format("woff"),
-       url("/css/fonts/proxima-nova/semi/webfont.ttf?v=#{$cb}") format("truetype"),
-       url("/css/fonts/proxima-nova/semi/webfont.svg#proxima-nova-semi?v=#{$cb}") format("svg");
+    font-family: "frank-new-medium";
+    src: url("/css/fonts/frank-new/medium/webfont.eot?v=#{$cb}");
+    src: url("/css/fonts/frank-new/medium/webfont.eot?v=#{$cb}iefix") format("embedded-opentype"),
+       url("/css/fonts/frank-new/medium/webfont.woff2?v=#{$cb}") format("woff2"),
+       url("/css/fonts/frank-new/medium/webfont.woff?v=#{$cb}") format("woff"),
+       url("/css/fonts/frank-new/medium/webfont.ttf?v=#{$cb}") format("truetype");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: "proxima-nova-regular";
-    src: url("/css/fonts/proxima-nova/regular/webfont.eot?v=#{$cb}");
-    src: url("/css/fonts/proxima-nova/regular/webfont.eot?v=#{$cb}iefix") format("embedded-opentype"),
-       url("/css/fonts/proxima-nova/regular/webfont.woff2?v=#{$cb}") format("woff2"),
-       url("/css/fonts/proxima-nova/regular/webfont.woff?v=#{$cb}") format("woff"),
-       url("/css/fonts/proxima-nova/regular/webfont.ttf?v=#{$cb}") format("truetype"),
-       url("/css/fonts/proxima-nova/regular/webfont.svg#proxima-nova-regular?v=#{$cb}") format("svg");
+    font-family: "frank-new-regular";
+    src: url("/css/fonts/frank-new/regular/webfont.eot?v=#{$cb}");
+    src: url("/css/fonts/frank-new/regular/webfont.eot?v=#{$cb}iefix") format("embedded-opentype"),
+       url("/css/fonts/frank-new/regular/webfont.woff2?v=#{$cb}") format("woff2"),
+       url("/css/fonts/frank-new/regular/webfont.woff?v=#{$cb}") format("woff"),
+       url("/css/fonts/frank-new/regular/webfont.ttf?v=#{$cb}") format("truetype");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: "proxima-nova-light";
-    src: url("/css/fonts/proxima-nova/light/webfont.eot?v=#{$cb}");
-    src: url("/css/fonts/proxima-nova/light/webfont.eot?v=#{$cb}iefix") format("embedded-opentype"),
-       url("/css/fonts/proxima-nova/light/webfont.woff2?v=#{$cb}") format("woff2"),
-       url("/css/fonts/proxima-nova/light/webfont.woff?v=#{$cb}") format("woff"),
-       url("/css/fonts/proxima-nova/light/webfont.ttf?v=#{$cb}") format("truetype"),
-       url("/css/fonts/proxima-nova/light/webfont.svg#proxima-nova-regular?v=#{$cb}") format("svg");
+    font-family: "frank-new-light";
+    src: url("/css/fonts/frank-new/light/webfont.eot?v=#{$cb}");
+    src: url("/css/fonts/frank-new/light/webfont.eot?v=#{$cb}iefix") format("embedded-opentype"),
+       url("/css/fonts/frank-new/light/webfont.woff2?v=#{$cb}") format("woff2"),
+       url("/css/fonts/frank-new/light/webfont.woff?v=#{$cb}") format("woff"),
+       url("/css/fonts/frank-new/light/webfont.ttf?v=#{$cb}") format("truetype");
     font-weight: normal;
     font-style: normal;
 }
@@ -280,15 +310,15 @@ $cb : 2;
 // $small-font-color: scale-color($header-font-color, $lightness: 35%);
 
 // We use these to style paragraphs
-$paragraph-font-family: inherit;
-$paragraph-font-weight: $font-weight-normal;
-$paragraph-font-size: 1rem;
-$paragraph-line-height: 1.6;
-$paragraph-margin-bottom: rem-calc(20);
-$paragraph-aside-font-size: rem-calc(14);
-$paragraph-aside-line-height: 1.35;
-$paragraph-aside-font-style: italic;
-$paragraph-text-rendering: optimizeLegibility;
+// $paragraph-font-family: inherit;
+// $paragraph-font-weight: $font-weight-normal;
+// $paragraph-font-size: 1rem;
+// $paragraph-line-height: 1.6;
+// $paragraph-margin-bottom: rem-calc(20);
+// $paragraph-aside-font-size: rem-calc(14);
+// $paragraph-aside-line-height: 1.35;
+// $paragraph-aside-font-style: italic;
+// $paragraph-text-rendering: optimizeLegibility;
 
 // We use these to style <code> tags
 // $code-color: $oil;

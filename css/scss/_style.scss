@@ -1,131 +1,150 @@
-// Links
-
-body {
-   font-family : $font-family-sans-light; 
-}
-
-h1, h2, h3, h4, h5, h6 {
-    font-family : $font-family-sans-light;
-}
-
-a {
-    position : relative;
-    color : $gold;
-    font-family : $font-family-sans-light; 
-    text-decoration: none;
-    opacity : 0.7;
-}
-
-a:after {
-    @include transition(all, 300ms, ease-in-out);
-    position : absolute;
-    left : 0;
-    bottom : -4px;
-    display : inline-block;
-    content : '';
-    width : 0%;
-    height : 1px;
-    background : $gold;
-    opacity : 0.3;
-}
-
-a:hover {
-    opacity : 1;
-    &:after {
-        width : 100%;
-    }
-}
-
-p {
-    font-size : 1rem;
-}
-
-
-
-// Header
-header { 
+// header
+#header {
+    padding: 2em 1em;
     text-align: center; 
-    #logo {
-        position : relative;
-        z-index : 10;
-        img {
-            display : block;
-            position : fixed;
-            top : 0;
-            left : 0;
-            right : 0;
-            margin : 5rem auto 0;
-            width : 200px;
-        }
+
+    @media #{$large-up} {
+        padding: 4em 0;
     }
-    #nav {
-        margin : 8rem auto 0;
-        ul {
-            margin-left : 0;
-            padding-left : 0;
 
-            li, a {
-                display : inline-block;
-                list-style-type : none;
-                margin : 0 .5rem;
-                color : $grey;
-            }
-        }
-    }
-}
-
-// Body
-
-
-// Footer
-footer {
-    position : fixed;
-    bottom : 5rem;
-    left : 0;
-    right : 0;
-    margin : auto;
-    text-align : center;
-    a {
-        display : inline-block;
-        font-size : 0.9rem;
+    img {
+        display : block;
+        height: 30px;
+        width: auto;
     }
 }
 
 // home
 #home {
-    text-align : center;
-    h1 {
-        padding : 30px;
-        color : $black;
-        font-size : 2rem;
-    }
-}
 
-// shop home
-#shop-home {
-    margin : 3rem auto;
-    div {
-        margin-bottom : 2rem;
-    }
-}
+    &__header {
 
+        h1 {
+            margin-bottom: 1em;
 
-// photoswipe
-#photoswipe {
-    margin-top : 30px;
-    figure {
-        margin : 0;
-    }
-}
+            @media #{$small-only} {
+                font-size: $h3-font-size;
+            }
 
-
-@media #{$small-only} {
-    header {
-        img {
-            margin : 50px auto 0;
+            @media #{$large-up} {
+                margin-bottom: 2em;
+            }
         }
     }
-    footer {
-        bottom : 50px;
+}
+
+// Work
+#work {
+    margin-top: 2em;
+
+    @media #{$large-up} {
+        margin-top: 4em;
     }
 }
+
+.work {
+    display: block;
+    position: relative;
+
+    &:hover {
+        .work__overlay {
+            @include transition(opacity, 400ms, ease-in-out);
+            opacity: 1;
+        }
+    }
+
+    &__overlay {
+        position: absolute;
+        padding: 1em;
+        opacity: 1;
+
+        @media #{$large-up} {
+            padding: 2em;
+            opacity: 0;
+        }
+    }
+
+    &__nav {
+
+        &--active {
+            a {
+                color: $black;
+                border-bottom: 1px solid $black;
+            }
+        }
+
+        ul {
+            margin: 1em auto 2em;
+            text-align: center;
+        }
+
+        li {
+            display: inline-block; 
+            padding: 1em;           
+        }
+    }
+}
+
+.page {
+    padding-bottom: 2em;
+
+    @media #{$large-up} {
+        padding-bottom: 4em;
+    }
+
+    &__header {
+        margin-bottom: 2em;
+    }   
+}
+
+
+// Checkout
+.tradesy-checkout {
+    &__old {
+        text-align: center;
+
+        img {
+            width: 450px;
+            margin: auto;
+        }
+    }
+}
+
+
+// About 
+#about {
+    padding: 0 1em 2em;
+
+    @media #{$large-up} {
+        padding: 0 0 4em;
+    }
+}
+
+.about {
+    &__image {
+        margin-top: 2em;
+        text-align: center;
+
+        img {
+            width: 200px;
+            margin: auto;
+        }
+    }
+}
+
+#footer {
+    background-color: $primary;
+    padding: 2em 1em;
+    color: $white;
+    font-family: $font-family-sans-light;
+
+    @media #{$large-up} {
+        padding: 4em 0;
+    }
+
+    h3 {
+        color: $white;
+    }
+}
+
+
