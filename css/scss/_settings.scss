@@ -89,9 +89,9 @@ $include-html-global-classes: $include-html-classes;
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 
 // We use these to define default font stacks
-$font-family-sans: "frank-new-regular", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-$font-family-sans-light: "frank-new-light", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-$font-family-sans-semi: "frank-new-medium", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+$font-family-sans: "hk-grotesk-regular", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+$font-family-sans-light: "hk-grotesk-regular", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+$font-family-sans-semi: "hk-grotesk-semi", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
 $font-family-serif: "Quattrocento", Georgia, Cambria, "Times New Roman", Times, serif;
 $font-family-monospace: Consolas, "Liberation Mono", Courier, monospace;
 
@@ -238,34 +238,23 @@ $large: $large-up;
 $cb : 2;
 
 @font-face {
-    font-family: "frank-new-medium";
-    src: url("/css/fonts/frank-new/medium/webfont.eot?v=#{$cb}");
-    src: url("/css/fonts/frank-new/medium/webfont.eot?v=#{$cb}iefix") format("embedded-opentype"),
-       url("/css/fonts/frank-new/medium/webfont.woff2?v=#{$cb}") format("woff2"),
-       url("/css/fonts/frank-new/medium/webfont.woff?v=#{$cb}") format("woff"),
-       url("/css/fonts/frank-new/medium/webfont.ttf?v=#{$cb}") format("truetype");
+    font-family: "hk-grotesk-regular";
+    src: url("/css/fonts/hk-grotesk/regular/webfont.eot?v=#{$cb}");
+    src: url("/css/fonts/hk-grotesk/regular/webfont.eot?v=#{$cb}iefix") format("embedded-opentype"),
+       url("/css/fonts/hk-grotesk/regular/webfont.woff2?v=#{$cb}") format("woff2"),
+       url("/css/fonts/hk-grotesk/regular/webfont.woff?v=#{$cb}") format("woff"),
+       url("/css/fonts/hk-grotesk/regular/webfont.ttf?v=#{$cb}") format("truetype");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: "frank-new-regular";
-    src: url("/css/fonts/frank-new/regular/webfont.eot?v=#{$cb}");
-    src: url("/css/fonts/frank-new/regular/webfont.eot?v=#{$cb}iefix") format("embedded-opentype"),
-       url("/css/fonts/frank-new/regular/webfont.woff2?v=#{$cb}") format("woff2"),
-       url("/css/fonts/frank-new/regular/webfont.woff?v=#{$cb}") format("woff"),
-       url("/css/fonts/frank-new/regular/webfont.ttf?v=#{$cb}") format("truetype");
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "frank-new-light";
-    src: url("/css/fonts/frank-new/light/webfont.eot?v=#{$cb}");
-    src: url("/css/fonts/frank-new/light/webfont.eot?v=#{$cb}iefix") format("embedded-opentype"),
-       url("/css/fonts/frank-new/light/webfont.woff2?v=#{$cb}") format("woff2"),
-       url("/css/fonts/frank-new/light/webfont.woff?v=#{$cb}") format("woff"),
-       url("/css/fonts/frank-new/light/webfont.ttf?v=#{$cb}") format("truetype");
+    font-family: "hk-grotesk-semi";
+    src: url("/css/fonts/hk-grotesk/semi/webfont.eot?v=#{$cb}");
+    src: url("/css/fonts/hk-grotesk/semi/webfont.eot?v=#{$cb}iefix") format("embedded-opentype"),
+       url("/css/fonts/hk-grotesk/semi/webfont.woff2?v=#{$cb}") format("woff2"),
+       url("/css/fonts/hk-grotesk/semi/webfont.woff?v=#{$cb}") format("woff"),
+       url("/css/fonts/hk-grotesk/semi/webfont.ttf?v=#{$cb}") format("truetype");
     font-weight: normal;
     font-style: normal;
 }

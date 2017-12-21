@@ -20,6 +20,7 @@
     &__header {
 
         h1 {
+            max-width: 750px;
             margin-bottom: 1em;
 
             @media #{$small-only} {
@@ -27,7 +28,7 @@
             }
 
             @media #{$large-up} {
-                margin-bottom: 2em;
+                margin-bottom: 1.5em;
             }
         }
     }

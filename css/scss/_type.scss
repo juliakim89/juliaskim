@@ -17,7 +17,7 @@ $header-bottom-margin: .5rem !default;
 $header-text-rendering: optimizeLegibility !default;
 
 // We use these to control header font sizes
-$h1-font-size: rem-calc(44) !default;
+$h1-font-size: rem-calc(54) !default;
 $h2-font-size: rem-calc(37) !default;
 $h3-font-size: rem-calc(27) !default;
 $h4-font-size: rem-calc(23) !default;
@@ -181,7 +181,7 @@ $align-class-breakpoints:
   line-height: $subheader-line-height;
   color: $subheader-font-color;
   font-size: $h6-font-size;
-  font-family: $font-family-sans-light;
+  font-family: $font-family-sans;
   margin-top: $subheader-top-margin;
   margin-bottom: $subheader-bottom-margin;
   text-transform: uppercase;
