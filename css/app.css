@@ -2751,43 +2751,44 @@ blockquote p {
     padding: 5px 7px;
     border: 1px solid #354E60;
     border-radius: 10px;
+    color: #354E60;
     font-size: 13px; }
 
-/* line 119, scss/_style.scss */
+/* line 120, scss/_style.scss */
 .tradesy-checkout__old {
   text-align: center; }
-  /* line 122, scss/_style.scss */
+  /* line 123, scss/_style.scss */
   .tradesy-checkout__old img {
     width: 450px;
     margin: auto; }
 
-/* line 131, scss/_style.scss */
+/* line 132, scss/_style.scss */
 #about {
   padding: 0 1em 2em; }
   @media only screen and (min-width: 64.063em) {
-    /* line 131, scss/_style.scss */
+    /* line 132, scss/_style.scss */
     #about {
       padding: 2em 0 4em; } }
 
-/* line 140, scss/_style.scss */
+/* line 141, scss/_style.scss */
 .about__image {
   margin-top: 2em;
   text-align: center; }
-  /* line 144, scss/_style.scss */
+  /* line 145, scss/_style.scss */
   .about__image img {
     width: 200px;
     margin: auto; }
 
-/* line 151, scss/_style.scss */
+/* line 152, scss/_style.scss */
 #footer {
   background-color: #354E60;
   padding: 2em 1em;
   color: #FFFFFF;
   font-family: "hk-grotesk-regular", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; }
   @media only screen and (min-width: 64.063em) {
-    /* line 151, scss/_style.scss */
+    /* line 152, scss/_style.scss */
     #footer {
       padding: 4em 0; } }
-  /* line 161, scss/_style.scss */
+  /* line 162, scss/_style.scss */
   #footer h3 {
     color: #FFFFFF; }
