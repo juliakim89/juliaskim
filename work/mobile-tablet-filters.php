@@ -89,6 +89,8 @@
 		<li><a href="/work/checkout" class="link--text">Checkout</a></li>
 		<li class="work__nav--active"><a href="/work/mobile-tablet-filters">Mobile and Tablet Filters</a></li>
 		<li><a href="/work/item-page" class="link--text">Item Page</a></li>
+		<li><a href="/work/bella-shield" class="link--text">Bella Shield</a></li>
+		<li><a href="/work/logos" class="link--text">Logo Designs</a></li>
 	</ul>
 </div>
 

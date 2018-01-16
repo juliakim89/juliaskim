@@ -38,7 +38,9 @@
 		<li><a href="/" class="link--text">Home</a></li>
 		<li><a href="/work/checkout" class="link--text">Checkout</a></li>
 		<li><a href="/work/mobile-tablet-filters" class="link--text">Mobile and Tablet Filters</a></li>
-		<li class="work__nav--active"><a href="/work/item-page">Item Page</a></li>
+		<li><a href="/work/item-page" class="link--text">Item Page</a></li>
+		<li><a href="/work/bella-shield" class="link--text">Bella Shield</a></li>
+		<li class="work__nav--active"><a href="/work/logos">Logo Designs</a></li>
 	</ul>
 </div>
 
