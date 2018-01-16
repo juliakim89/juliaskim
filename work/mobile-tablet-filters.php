@@ -89,6 +89,10 @@
 					Front-End Developer: Julia Kim<br/>
 					Developer: Tyler Geery, Peppy Sisay
 				</p>
+				<h3 class="subheader">Visit</h3>
+				<p>
+					<a href="https://tradesy.com/" class="link--text" target="_blank">Tradesy Website</a>
+				</p>
 			</div>
 		</div>
 		
