@@ -4,10 +4,19 @@
 	<div id="tradesy-checkout" class="page row">
 		<div class="page__header">
 			<h1>Elevating Tradesy's Item Page Design</h1>
+			<div class="page__type">
+				<span>UX</span>
+			</div>
+			<div class="page__type">
+				<span>UI</span>
+			</div>
+			<div class="page__type">
+				<span>Front-End Development</span>
+			</div>
 		</div>
 
 		<div class="row">
-			<div class="large-6 column">
+			<div class="large-7 column">
 				<h3 class="subheader">Problem</h3>
 				<p>Tradesy's current item page was overloaded with information and had no clear story or guidance in how to digest the information. Users were skipping over information like the item description and condition, and people were confused by the price breakdown.</p>
 				<h3 class="subheader">Goal</h3>
@@ -45,9 +54,9 @@
 					</ul>
 				</ol>
 			</div>
-			<div class="large-6 column">
-				<hr class="hr--clear">
-				<img src="/images/projects/item-page/item-page-old.jpg" alt="old item page designs">
+			<div class="large-4 column">
+				<h3 class="subheader">Year Completed</h3>
+				<p>2017</p>
 			</div>
 		</div>
 
@@ -67,7 +76,7 @@
 		<hr class="hr--clear">
 
 		<div class="row">
-			<div class="column">
+			<div class="large-7 column">
 				<h3 class="subheader">Results</h3>
 				<p>After releasing a redesign of the item page, we conducted an unmoderated test on Usertesting.com. Users were asked to perform a series of tasks meant to evaluate whether they would be ready to make a purchase after using the new IDP. Qualitative feedback was outstanding for the new IDP, with a 9.0/10 avg satisfaction rating, and a 1.2/10 avg difficulty rating. When describing why they felt they could trust Tradesy, several users used similar terminology: "Clean, professional, well organized."<p>
 				<p>In general, users were able to easily find important information about the item, and very few users had any question as to whether they'd trust Tradesy. 100% of users surveyed understood that tradesy is a marketplace, and were successful in describing how it works. </p>
@@ -76,7 +85,7 @@
 					Product Owner: Steve Elmer<br/>
 					User Experience Designer: Sash Catanzarite<br/>
 					Product Designer: Julia Kim<br/>
-					Frontend Developer: Julia Kim<br/>
+					Front-End Developer: Julia Kim<br/>
 					Developer: Gary Chang
 				</p>
 			</div>

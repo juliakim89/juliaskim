@@ -4,10 +4,19 @@
 	<div id="tradesy-checkout" class="page row">
 		<div class="page__header">
 			<h1>Redesigning Tradesy's checkout experience</h1>
+			<div class="page__type">
+				<span>UX</span>
+			</div>
+			<div class="page__type">
+				<span>UI</span>
+			</div>
+			<div class="page__type">
+				<span>Front-End Development</span>
+			</div>
 		</div>
 
 		<div class="row">
-			<div class="large-6 column">
+			<div class="large-7 column">
 				<h3 class="subheader">Problem</h3>
 				<p>Tradesy's web checkout experience was poor and not thought through in over 4 years. We found that it did not follow industry best practices and thus explained the high abandoned cart rate.
 				</p>
@@ -31,8 +40,9 @@
 					<li>Autofill city and state with zip code information</li>
 				</ul>
 			</div>
-			<div class="tradesy-checkout__old large-6 column">
-				<img src="/images/projects/checkout/checkout-old.png" alt="old checkout mobile">
+			<div class="large-4 column">
+				<h3 class="subheader">Year Completed</h3>
+				<p>2017</p>
 			</div>
 		</div>
 
@@ -65,7 +75,7 @@
 		<hr class="hr--clear">
 
 		<div class="row">
-			<div class="column">
+			<div class="large-7 column">
 				<h3 class="subheader">Results</h3>
 				<p>We rolled out the checkout redesign in 2 different phases. The redesign was being tested against the old checkout design. The new design was a huge improvement and solved a lot of usability issues we were seeing before. However, once we added the login/register screen before starting checking, we saw a dip in checkout started and a slight increase in purchase rate. We knew that we had to continue iterating and take on guest checkout. </p>
 				
@@ -77,7 +87,7 @@
 		<h2>Guest Checkout</h2>
 
 		<div class="row">
-			<div class="column">
+			<div class="large-7 column">
 				<h3 class="subheader">User Pain Points</h3>
 				<ul>
 					<li>35% of the reasons for checkout abandonment is because “the site wanted me to create an account” (Baymard)</li>
@@ -112,7 +122,7 @@
 		</div>
 
 		<div class="row">
-			<div class="column">
+			<div class="large-7 column">
 				<h3 class="subheader">Results</h3>
 				<p>
 					After releasing guest checkout and testing it, we saw an immediate lift in checkout started. Overall, we saw signficantly less issues being reported in our feedback channel related to checkout and though we still need to keep iterating to continue to improve the experience, Tradesy's new checkout experience is much more seamless and frictionless than it was before. 
@@ -120,9 +130,9 @@
 				<h3 class="subheader">Contributers</h3>
 				<p>
 					Product Owner: Bijan Bina<br/>
-					User Experience Designer: Amar Singh<br/>
+					User Experience Designers: Amar Singh, Julia Kim<br/>
 					Product Designers: Julia Kim, Robert Manukyan<br/>
-					Frontend Developer: Julia Kim<br/>
+					Front-End Developer: Julia Kim<br/>
 					Developer: Tyler Geery, Peppy Sisay
 				</p>
 			</div>

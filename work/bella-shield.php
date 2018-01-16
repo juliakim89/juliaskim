@@ -4,12 +4,28 @@
 	<div id="bella-shield" class="page row">
 		<div class="page__header">
 			<h1>Bella Shield Branding</h1>
+			<div class="page__type">
+				<span>Logo Design</span>
+			</div>
+			<div class="page__type">
+				<span>Packaging Design</span>
+			</div>
+			<div class="page__type">
+				<span>Web Design</span>
+			</div>
+			<div class="page__type">
+				<span>Development</span>
+			</div>
 		</div>
 
 		<div class="row">
-			<div class="large-8 column">
+			<div class="large-7 column">
 				<h3 class="subheader">Project Brief</h3>
 				<p>I was asked to do a complete branding for a new product launch called Bella Shield. Bella Shield was going to be a tool used by salon professionals to product the clients face during hair procedures. I designed the logo, product packaging and website, while also developing the website.</p>
+			</div>
+			<div class="large-4 column">
+				<h3 class="subheader">Year Completed</h3>
+				<p>2013</p>
 			</div>
 		</div>
 
