@@ -46,6 +46,7 @@
 .work {
     display: block;
     position: relative;
+    opacity: 1;
 
     &:hover {
         .work__overlay {
@@ -95,6 +96,12 @@
 
     &__header {
         margin-bottom: 2em;
+
+        h1 {
+            @media #{$small-only} {
+                font-size : $h3-font-size;
+            }
+        }
     }   
 }
 

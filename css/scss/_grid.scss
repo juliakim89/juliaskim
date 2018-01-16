@@ -171,6 +171,19 @@ $last-child-float: $opposite-direction !default;
     padding: 0;
   }
 
+  .column--no-padding-left {
+    @media #{$large-up} {
+      padding-left: 0;
+    }
+    
+  }
+
+  .column--no-padding-right {
+    @media #{$large-up} {
+      padding-right: 0;
+    }
+  }
+
 
   @for $i from 1 through $total-columns {
     .#{$size}-#{$i} { @include grid-column($columns:$i,$collapse:null,$float:false); }
