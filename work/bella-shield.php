@@ -20,8 +20,8 @@
 
 		<div class="row">
 			<div class="large-7 column">
-				<h3 class="subheader">Project Brief</h3>
-				<p>I was asked to do a complete branding for a new product launch called Bella Shield. Bella Shield was going to be a tool used by salon professionals to product the clients face during hair procedures. I designed the logo, product packaging and website, while also developing the website.</p>
+				<h3 class="subheader">Description</h3>
+				<p>Bella Shield was a new product that was going to be launched by a salon called Etude House based in Los Angeles. This was a tool that was going to be used by salon professionals to protect the clients face during hair procedures. I worked on the design of the logo, product packaging, website design, and website development.</p>
 			</div>
 			<div class="large-4 column">
 				<h3 class="subheader">Year Completed</h3>
