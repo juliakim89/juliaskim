@@ -25,9 +25,6 @@
 				<img src="/images/projects/item-page/item-page-mobile.jpg" alt="item page mobile">
 			</div>
 		</div>
-
-	
-		
 	</div>
 </div>
 

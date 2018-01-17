@@ -112,6 +112,15 @@
         color: $primary;
         font-size: 13px;
     } 
+
+    &__display {
+        border: 20px solid $grey-100;
+        padding: 0;
+
+        @media #{$large-up} {
+            border: 70px solid $grey-100;
+        }
+    }
 }
 
 

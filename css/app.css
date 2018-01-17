@@ -2753,42 +2753,50 @@ blockquote p {
     border-radius: 10px;
     color: #354E60;
     font-size: 13px; }
+  /* line 116, scss/_style.scss */
+  .page__display {
+    border: 20px solid #F5F5F5;
+    padding: 0; }
+    @media only screen and (min-width: 64.063em) {
+      /* line 116, scss/_style.scss */
+      .page__display {
+        border: 70px solid #F5F5F5; } }
 
-/* line 120, scss/_style.scss */
+/* line 129, scss/_style.scss */
 .tradesy-checkout__old {
   text-align: center; }
-  /* line 123, scss/_style.scss */
+  /* line 132, scss/_style.scss */
   .tradesy-checkout__old img {
     width: 450px;
     margin: auto; }
 
-/* line 132, scss/_style.scss */
+/* line 141, scss/_style.scss */
 #about {
   padding: 0 1em 2em; }
   @media only screen and (min-width: 64.063em) {
-    /* line 132, scss/_style.scss */
+    /* line 141, scss/_style.scss */
     #about {
       padding: 2em 0 4em; } }
 
-/* line 141, scss/_style.scss */
+/* line 150, scss/_style.scss */
 .about__image {
   margin-top: 2em;
   text-align: center; }
-  /* line 145, scss/_style.scss */
+  /* line 154, scss/_style.scss */
   .about__image img {
     width: 200px;
     margin: auto; }
 
-/* line 152, scss/_style.scss */
+/* line 161, scss/_style.scss */
 #footer {
   background-color: #354E60;
   padding: 2em 1em;
   color: #FFFFFF;
   font-family: "hk-grotesk-regular", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; }
   @media only screen and (min-width: 64.063em) {
-    /* line 152, scss/_style.scss */
+    /* line 161, scss/_style.scss */
     #footer {
       padding: 4em 0; } }
-  /* line 162, scss/_style.scss */
+  /* line 171, scss/_style.scss */
   #footer h3 {
     color: #FFFFFF; }
