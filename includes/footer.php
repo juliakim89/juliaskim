@@ -10,7 +10,7 @@
 						</div>
 						<div class="medium-6 column">
 							<h3 class="subheader">Resume</h3>
-							<a href="/images/julia-kim-resume-2017.pdf" target="_blank" class="link--text link--white">Download here</a>
+							<a href="/images/resume-julia-kim-2020.pdf" target="_blank" class="link--text link--white">Download here</a>
 						</div>
 					</div>
         </footer>
