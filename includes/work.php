@@ -1,5 +1,12 @@
 <div id="work" class="row">
-	<a href="/work/checkout" class="work">
+	<a href="/work/cash-out" class="work medium-6 column column--no-padding">
+		<div class="work__overlay">
+			<h3>Tala's Cash Out Experience</h3>
+			<span class="link--text">Learn More</span>
+		</div>
+		<img src="/images/projects/cash-out/thumbnail.jpg" alt="Tala Cash Out">
+	</a>
+	<a href="/work/checkout" class="work medium-6 column column--no-padding">
 		<div class="work__overlay">
 			<h3>Tradesy's Checkout Experience</h3>
 			<span class="link--text">Learn More</span>

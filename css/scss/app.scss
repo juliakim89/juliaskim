@@ -1,6 +1,10 @@
-@import "foundation/components/forms";
+// @import "foundation/components/forms";
 
+@import "functions";
+@import "global";
 @import "settings";
+@import "forms";
+@import "buttons";
 @import "mixins";
 @import "grid";
 @import "type";

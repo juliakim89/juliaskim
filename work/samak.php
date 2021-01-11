@@ -18,7 +18,7 @@
 				<p>Logo design, branding, product photography, packaging design</p>
 				<h3 class="subheader">Visit</h3>
 				<p>
-					<a href="http://samak.co/" class="link--text" target="_blank">Samak Etsy Shop</a>
+					<a href="http://samak.co/" class="link--text" target="_blank">Samak</a>
 				</p>
 			</div>
 		</div>
@@ -67,7 +67,7 @@
 <hr>
 <div class="work__nav row">
 	<ul class="no-bullet">
-		<li><a href="/" class="link--text">Home</a></li>
+		<li><a href="/work/cash-out" >Cash Out</a></li>
 		<li><a href="/work/checkout" class="link--text">Checkout</a></li>
 		<li><a href="/work/gift-guide" class="link--text">Gift Guide</a></li>
 		<li><a href="/work/magic-ruler" class="link--text">AR Magic Ruler</a></li>

@@ -57,7 +57,7 @@
 <hr>
 <div class="work__nav row">
 	<ul class="no-bullet">
-		<li><a href="/" class="link--text">Home</a></li>
+		<li><a href="/work/cash-out" >Cash Out</a></li>
 		<li><a href="/work/checkout" class="link--text">Checkout</a></li>
 		<li><a href="/work/gift-guide" class="link--text">Gift Guide</a></li>
 		<li><a href="/work/magic-ruler" class="link--text">AR Magic Ruler</a></li>

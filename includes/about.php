@@ -2,7 +2,7 @@
 	<div class="row">
 		<div class="medium-4 column">
 			<div class="about__image">
-				<img src="/images/julia-kim.png" alt="Julia Kim photo">
+				<img src="/images/julia-photo.png" alt="Julia Kim photo">
 			</div>
 		</div>
 		<div class="medium-8 column">

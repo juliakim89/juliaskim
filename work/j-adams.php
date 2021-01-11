@@ -32,6 +32,7 @@
 <div class="work__nav row">
 	<ul class="no-bullet">
 		<li><a href="/" class="link--text">Home</a></li>
+		<li><a href="/work/cash-out" >Cash Out</a></li>
 		<li><a href="/work/checkout" class="link--text">Checkout</a></li>
 		<li><a href="/work/mobile-tablet-filters" class="link--text">Mobile and Tablet Filters</a></li>
 		<li class="work__nav--active"><a href="/work/item-page">Item Page</a></li>

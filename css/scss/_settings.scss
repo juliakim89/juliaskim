@@ -55,7 +55,7 @@
 $rem-base: 16px;
 
 // Allows the use of rem-calc() or lower-bound() in your settings
-@import "foundation/functions";
+@import "functions";
 
 // The default font-size is set to 100% of the browser style sheet (usually 16px)
 // for compatibility with browser-based text zoom or user-set defaults.
@@ -89,11 +89,11 @@ $include-html-global-classes: $include-html-classes;
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 
 // We use these to define default font stacks
-$font-family-sans: "hk-grotesk-regular", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-$font-family-sans-light: "hk-grotesk-regular", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-$font-family-sans-semi: "hk-grotesk-semi", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+$font-family-sans: "maison-neue-book", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+$font-family-sans-light: "maison-neue-book", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+$font-family-sans-semi: "maison-neue-bold", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
 $font-family-serif: "Quattrocento", Georgia, Cambria, "Times New Roman", Times, serif;
-$font-family-monospace: Consolas, "Liberation Mono", Courier, monospace;
+$font-family-monospace: "maison-neue-mono", "Liberation Mono", Courier, monospace;
 
 // We use these to define default font weights
 $font-weight-normal: normal;
@@ -235,26 +235,37 @@ $large: $large-up;
 // e. Typography
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 
-$cb : 2;
+$cb : 3;
 
 @font-face {
-    font-family: "hk-grotesk-regular";
-    src: url("/css/fonts/hk-grotesk/regular/webfont.eot?v=#{$cb}");
-    src: url("/css/fonts/hk-grotesk/regular/webfont.eot?v=#{$cb}iefix") format("embedded-opentype"),
-       url("/css/fonts/hk-grotesk/regular/webfont.woff2?v=#{$cb}") format("woff2"),
-       url("/css/fonts/hk-grotesk/regular/webfont.woff?v=#{$cb}") format("woff"),
-       url("/css/fonts/hk-grotesk/regular/webfont.ttf?v=#{$cb}") format("truetype");
+    font-family: "maison-neue-book";
+    src: url("/css/fonts/maison-neue/book/webfont.eot?v=#{$cb}");
+    src: url("/css/fonts/maison-neue/book/webfont.eot?v=#{$cb}iefix") format("embedded-opentype"),
+         url("/css/fonts/maison-neue/book/webfont.woff2?v=#{$cb}") format("woff2"),
+         url("/css/fonts/maison-neue/book/webfont.woff?v=#{$cb}") format("woff"),
+         url("/css/fonts/maison-neue/book/webfont.ttf?v=#{$cb}") format("truetype");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: "hk-grotesk-semi";
-    src: url("/css/fonts/hk-grotesk/semi/webfont.eot?v=#{$cb}");
-    src: url("/css/fonts/hk-grotesk/semi/webfont.eot?v=#{$cb}iefix") format("embedded-opentype"),
-       url("/css/fonts/hk-grotesk/semi/webfont.woff2?v=#{$cb}") format("woff2"),
-       url("/css/fonts/hk-grotesk/semi/webfont.woff?v=#{$cb}") format("woff"),
-       url("/css/fonts/hk-grotesk/semi/webfont.ttf?v=#{$cb}") format("truetype");
+    font-family: "maison-neue-bold";
+    src: url("/css/fonts/maison-neue/bold/webfont.eot?v=#{$cb}");
+    src: url("/css/fonts/maison-neue/bold/webfont.eot?v=#{$cb}iefix") format("embedded-opentype"),
+         url("/css/fonts/maison-neue/bold/webfont.woff2?v=#{$cb}") format("woff2"),
+         url("/css/fonts/maison-neue/bold/webfont.woff?v=#{$cb}") format("woff"),
+         url("/css/fonts/maison-neue/bold/webfont.ttf?v=#{$cb}") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "maison-neue-mono";
+    src: url("/css/fonts/maison-neue/mono/webfont.eot?v=#{$cb}");
+    src: url("/css/fonts/maison-neue/mono/webfont.eot?v=#{$cb}iefix") format("embedded-opentype"),
+         url("/css/fonts/maison-neue/mono/webfont.woff2?v=#{$cb}") format("woff2"),
+         url("/css/fonts/maison-neue/mono/webfont.woff?v=#{$cb}") format("woff"),
+         url("/css/fonts/maison-neue/mono/webfont.ttf?v=#{$cb}") format("truetype");
     font-weight: normal;
     font-style: normal;
 }
