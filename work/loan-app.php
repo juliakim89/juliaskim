@@ -67,7 +67,7 @@
 		<h3 class="subheader">Hypotheses</h3>
 		<div class="row">
 			<div class="medium-6 column">
-				<img src="/images/projects/loan-app/Hypotheses.jpg" alt="loan app drop off Hypotheses">	
+				<img src="/images/projects/loan-app/hypotheses.jpg" alt="loan app drop off Hypotheses">	
 				<p class="caption">Hypotheses generating exercise</p>	
 			</div>
 			<div class="medium-6 column">
