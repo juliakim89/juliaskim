@@ -2,8 +2,8 @@
 
 <div class="content">
 	<div id="home__header" class="row">
-		<div>
-			<h1>I’m a product designer and front-end developer based in Los Angeles, CA.</h1>
+		<div class="column">
+			<h1>I am a product designer based in Los Angeles, CA.</h1>
 			<h4>I currently work as a Senior Product Designer at <a href="https://www.tala.co" target="_blank" class="link--text">Tala</a>.</h4>
 		</div>
 	</div>

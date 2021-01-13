@@ -2616,7 +2616,7 @@ h6 {
 .subheader {
   line-height: 1.4;
   color: #6f6f6f;
-  font-size: 1rem;
+  font-size: 14px;
   font-family: "maison-neue-mono", "Liberation Mono", Courier, monospace;
   margin-top: 2rem;
   margin-bottom: 0.5rem;
@@ -2644,6 +2644,7 @@ i {
 
 strong,
 b {
+  font-family: "maison-neue-bold", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: bold;
   line-height: inherit;
 }
@@ -2872,6 +2873,7 @@ blockquote p {
   display: block;
   position: relative;
   opacity: 1;
+  margin-bottom: 30px;
 }
 .work:hover .work__overlay {
   -webkit-transition: opacity 400ms ease-in-out;
@@ -2901,6 +2903,12 @@ blockquote p {
 .work__nav li {
   display: inline-block;
   padding: 1em;
+}
+
+.caption {
+  margin-top: 10px;
+  color: #888888;
+  font-size: 12px;
 }
 
 .page {

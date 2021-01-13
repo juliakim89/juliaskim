@@ -180,7 +180,7 @@ $align-class-breakpoints:
 @mixin subheader {
   line-height: $subheader-line-height;
   color: $subheader-font-color;
-  font-size: $h6-font-size;
+  font-size: 14px;
   font-family: $font-family-monospace;
   margin-top: $subheader-top-margin;
   margin-bottom: $subheader-bottom-margin;
@@ -343,6 +343,7 @@ $align-class-breakpoints:
 
     strong,
     b {
+      font-family: $font-family-sans-semi;
       font-weight: $font-weight-bold;
       line-height: inherit;
     }

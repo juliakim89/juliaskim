@@ -41,9 +41,11 @@
     <header>
 
         <section id="header" class="row">
-            <a href="/">
-                <img src="/images/logo.png" alt="Julia S. Kim" />
-            </a>
+            <div class="column">
+                <a href="/">
+                    <img src="/images/logo.png" alt="Julia S. Kim" />
+                </a>
+            </div>
         </section>
 
     </header>
