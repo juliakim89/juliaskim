@@ -89,15 +89,15 @@
 			<hr class="hr--clear">
 			<div class="row">
 				<div class="medium-4 column">
-					<img src="/images/projects/cash-out/customer-shadow-1.jpg" alt="">
+					<img src="/images/projects/cash-out/customer-shadow-1.JPG" alt="">
 					<hr class="hr--clear">
 				</div>
 				<div class="medium-4 column">
-					<img src="/images/projects/cash-out/customer-shadow-2.jpg" alt="">
+					<img src="/images/projects/cash-out/customer-shadow-2.JPG" alt="">
 					<hr class="hr--clear">
 				</div>
 				<div class="medium-4 column">
-					<img src="/images/projects/cash-out/customer-shadow-3.jpg" alt="">
+					<img src="/images/projects/cash-out/customer-shadow-3.JPG" alt="">
 					<hr class="hr--clear">
 				</div>
 				<div class="column">
