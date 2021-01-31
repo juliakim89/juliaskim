@@ -148,16 +148,16 @@ select {
 }
 
 html {
-  background: #354E60;
+  background: #E4E4E4;
 }
 
 body {
   height: auto;
   background: #FFFFFF;
-  color: #111111;
+  color: #2D2D2D;
   padding: 0;
   margin: 0;
-  font-family: "maison-neue-book", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "univers-light", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1.5;
@@ -175,23 +175,16 @@ body {
 }
 
 @font-face {
-  font-family: "maison-neue-book";
-  src: url("/css/fonts/maison-neue/book/webfont.eot?v=3");
-  src: url("/css/fonts/maison-neue/book/webfont.eot?v=3iefix") format("embedded-opentype"), url("/css/fonts/maison-neue/book/webfont.woff2?v=3") format("woff2"), url("/css/fonts/maison-neue/book/webfont.woff?v=3") format("woff"), url("/css/fonts/maison-neue/book/webfont.ttf?v=3") format("truetype");
+  font-family: "univers-light";
+  src: url("/css/fonts/univers/light/webfont.eot?v=3");
+  src: url("/css/fonts/univers/light/webfont.eot?v=3iefix") format("embedded-opentype"), url("/css/fonts/univers/light/webfont.woff2?v=3") format("woff2"), url("/css/fonts/univers/light/webfont.woff?v=3") format("woff"), url("/css/fonts/univers/light/webfont.ttf?v=3") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: "maison-neue-bold";
-  src: url("/css/fonts/maison-neue/bold/webfont.eot?v=3");
-  src: url("/css/fonts/maison-neue/bold/webfont.eot?v=3iefix") format("embedded-opentype"), url("/css/fonts/maison-neue/bold/webfont.woff2?v=3") format("woff2"), url("/css/fonts/maison-neue/bold/webfont.woff?v=3") format("woff"), url("/css/fonts/maison-neue/bold/webfont.ttf?v=3") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "maison-neue-mono";
-  src: url("/css/fonts/maison-neue/mono/webfont.eot?v=3");
-  src: url("/css/fonts/maison-neue/mono/webfont.eot?v=3iefix") format("embedded-opentype"), url("/css/fonts/maison-neue/mono/webfont.woff2?v=3") format("woff2"), url("/css/fonts/maison-neue/mono/webfont.woff?v=3") format("woff"), url("/css/fonts/maison-neue/mono/webfont.ttf?v=3") format("truetype");
+  font-family: "univers-bold";
+  src: url("/css/fonts/univers/bold/webfont.eot?v=3");
+  src: url("/css/fonts/univers/bold/webfont.eot?v=3iefix") format("embedded-opentype"), url("/css/fonts/univers/bold/webfont.woff2?v=3") format("woff2"), url("/css/fonts/univers/bold/webfont.woff?v=3") format("woff"), url("/css/fonts/univers/bold/webfont.ttf?v=3") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -199,10 +192,10 @@ button, .button {
   border-style: solid;
   border-width: 0;
   cursor: pointer;
-  font-family: "maison-neue-book", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "univers-light", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   line-height: normal;
-  margin: 0 0 1.25rem;
+  margin: 0 0 1.4285714286rem;
   position: relative;
   text-decoration: none;
   text-align: center;
@@ -210,11 +203,11 @@ button, .button {
   -moz-appearance: none;
   border-radius: 0;
   display: inline-block;
-  padding-top: 1rem;
-  padding-right: 2rem;
-  padding-bottom: 1.0625rem;
-  padding-left: 2rem;
-  font-size: 1rem;
+  padding-top: 1.1428571429rem;
+  padding-right: 2.2857142857rem;
+  padding-bottom: 1.2142857143rem;
+  padding-left: 2.2857142857rem;
+  font-size: 1.1428571429rem;
   background-color: #008CBA;
   border-color: #007095;
   color: #FFFFFF;
@@ -282,25 +275,25 @@ button.info:hover, button.info:focus, .button.info:hover, .button.info:focus {
   color: #FFFFFF;
 }
 button.large, .button.large {
-  padding-top: 1.125rem;
-  padding-right: 2.25rem;
-  padding-bottom: 1.1875rem;
-  padding-left: 2.25rem;
-  font-size: 1.25rem;
+  padding-top: 1.2857142857rem;
+  padding-right: 2.5714285714rem;
+  padding-bottom: 1.3571428571rem;
+  padding-left: 2.5714285714rem;
+  font-size: 1.4285714286rem;
 }
 button.small, .button.small {
-  padding-top: 0.875rem;
-  padding-right: 1.75rem;
-  padding-bottom: 0.9375rem;
-  padding-left: 1.75rem;
-  font-size: 0.8125rem;
+  padding-top: 1rem;
+  padding-right: 2rem;
+  padding-bottom: 1.0714285714rem;
+  padding-left: 2rem;
+  font-size: 0.9285714286rem;
 }
 button.tiny, .button.tiny {
-  padding-top: 0.625rem;
-  padding-right: 1.25rem;
-  padding-bottom: 0.6875rem;
-  padding-left: 1.25rem;
-  font-size: 0.6875rem;
+  padding-top: 0.7142857143rem;
+  padding-right: 1.4285714286rem;
+  padding-bottom: 0.7857142857rem;
+  padding-left: 1.4285714286rem;
+  font-size: 0.7857142857rem;
 }
 button.expand, .button.expand {
   padding-right: 0;
@@ -309,11 +302,11 @@ button.expand, .button.expand {
 }
 button.left-align, .button.left-align {
   text-align: left;
-  text-indent: 0.75rem;
+  text-indent: 0.8571428571rem;
 }
 button.right-align, .button.right-align {
   text-align: right;
-  padding-right: 0.75rem;
+  padding-right: 0.8571428571rem;
 }
 button.radius, .button.radius {
   border-radius: 3px;
@@ -436,16 +429,16 @@ button::-moz-focus-inner {
 }
 /* Standard Forms */
 form {
-  margin: 0 0 1rem;
+  margin: 0 0 1.1428571429rem;
 }
 
 /* Using forms within rows, we need to set some defaults */
 form .row .row {
-  margin: 0 -0.5rem;
+  margin: 0 -0.5714285714rem;
 }
 form .row .row .column,
 form .row .row .columns {
-  padding: 0 0.5rem;
+  padding: 0 0.5714285714rem;
 }
 form .row .row.collapse {
   margin: 0;
@@ -464,13 +457,13 @@ form .row input.column,
 form .row input.columns,
 form .row textarea.column,
 form .row textarea.columns {
-  padding-left: 0.5rem;
+  padding-left: 0.5714285714rem;
 }
 
 /* Label Styles */
 label {
-  font-size: 0.875rem;
-  color: #585858;
+  font-size: 1rem;
+  color: #6c6c6c;
   cursor: pointer;
   display: block;
   font-weight: normal;
@@ -483,12 +476,12 @@ label.right {
   text-align: right;
 }
 label.inline {
-  margin: 0 0 1rem 0;
-  padding: 0.5625rem 0;
+  margin: 0 0 1.1428571429rem 0;
+  padding: 0.6428571429rem 0;
 }
 label small {
   text-transform: capitalize;
-  color: #717171;
+  color: #828282;
 }
 
 /* Attach elements to the beginning or end of an input */
@@ -504,9 +497,9 @@ label small {
   border-style: solid;
   border-width: 1px;
   overflow: visible;
-  font-size: 0.875rem;
-  height: 2.3125rem;
-  line-height: 2.3125rem;
+  font-size: 1rem;
+  height: 2.6428571429rem;
+  line-height: 2.6428571429rem;
 }
 
 /* Adjust padding, alignment and radius if pre/post element is a button */
@@ -587,10 +580,10 @@ input[type=text], input[type=password], input[type=date], input[type=datetime], 
   box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
   color: rgba(0, 0, 0, 0.75);
   display: block;
-  font-size: 0.875rem;
-  margin: 0 0 1rem 0;
-  padding: 0.5rem;
-  height: 2.3125rem;
+  font-size: 1rem;
+  margin: 0 0 1.1428571429rem 0;
+  padding: 0.5714285714rem;
+  height: 2.6428571429rem;
   width: 100%;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -709,13 +702,13 @@ select {
   border-style: solid;
   border-width: 1px;
   border-color: #cccccc;
-  padding: 0.5rem;
-  font-size: 0.875rem;
-  font-family: "maison-neue-book", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  padding: 0.5714285714rem;
+  font-size: 1rem;
+  font-family: "univers-light", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   color: rgba(0, 0, 0, 0.75);
   line-height: normal;
   border-radius: 0;
-  height: 2.3125rem;
+  height: 2.6428571429rem;
 }
 select::-ms-expand {
   display: none;
@@ -740,14 +733,14 @@ input[type=file],
 input[type=checkbox],
 input[type=radio],
 select {
-  margin: 0 0 1rem 0;
+  margin: 0 0 1.1428571429rem 0;
 }
 
 input[type=checkbox] + label,
 input[type=radio] + label {
   display: inline-block;
-  margin-left: 0.5rem;
-  margin-right: 1rem;
+  margin-left: 0.5714285714rem;
+  margin-right: 1.1428571429rem;
   margin-bottom: 0;
   vertical-align: baseline;
 }
@@ -761,24 +754,24 @@ input[type=file] {
 /* We add basic fieldset styling */
 fieldset {
   border: 1px solid #DDDDDD;
-  padding: 1.25rem;
-  margin: 1.125rem 0;
+  padding: 1.4285714286rem;
+  margin: 1.2857142857rem 0;
 }
 fieldset legend {
   font-weight: bold;
   background: #FFFFFF;
-  padding: 0 0.1875rem;
+  padding: 0 0.2142857143rem;
   margin: 0;
-  margin-left: -0.1875rem;
+  margin-left: -0.2142857143rem;
 }
 
 /* Error Handling */
 [data-abide] .error small.error, [data-abide] .error span.error, [data-abide] span.error, [data-abide] small.error {
   display: block;
-  padding: 0.375rem 0.5625rem 0.5625rem;
+  padding: 0.4285714286rem 0.6428571429rem 0.6428571429rem;
   margin-top: -1px;
-  margin-bottom: 1rem;
-  font-size: 0.75rem;
+  margin-bottom: 1.1428571429rem;
+  font-size: 0.8571428571rem;
   font-weight: normal;
   font-style: italic;
   background: #f04124;
@@ -790,10 +783,10 @@ fieldset legend {
 
 span.error, small.error {
   display: block;
-  padding: 0.375rem 0.5625rem 0.5625rem;
+  padding: 0.4285714286rem 0.6428571429rem 0.6428571429rem;
   margin-top: -1px;
-  margin-bottom: 1rem;
-  font-size: 0.75rem;
+  margin-bottom: 1.1428571429rem;
+  font-size: 0.8571428571rem;
   font-weight: normal;
   font-style: italic;
   background: #f04124;
@@ -807,7 +800,7 @@ span.error, small.error {
 }
 .error input[type=checkbox],
 .error input[type=radio] {
-  margin-bottom: 1rem;
+  margin-bottom: 1.1428571429rem;
 }
 .error label,
 .error label.error {
@@ -815,17 +808,17 @@ span.error, small.error {
 }
 .error small.error {
   display: block;
-  padding: 0.375rem 0.5625rem 0.5625rem;
+  padding: 0.4285714286rem 0.6428571429rem 0.6428571429rem;
   margin-top: -1px;
-  margin-bottom: 1rem;
-  font-size: 0.75rem;
+  margin-bottom: 1.1428571429rem;
+  font-size: 0.8571428571rem;
   font-weight: normal;
   font-style: italic;
   background: #f04124;
   color: #FFFFFF;
 }
 .error > label > small {
-  color: #717171;
+  color: #828282;
   background: transparent;
   padding: 0;
   text-transform: capitalize;
@@ -854,7 +847,7 @@ label.error {
   margin-right: auto;
   margin-top: 0;
   margin-bottom: 0;
-  max-width: 75rem;
+  max-width: 85.7142857143rem;
 }
 .row:before, .row:after {
   content: " ";
@@ -874,8 +867,8 @@ label.error {
 }
 .row .row {
   width: auto;
-  margin-left: -0.9375rem;
-  margin-right: -0.9375rem;
+  margin-left: -1.0714285714rem;
+  margin-right: -1.0714285714rem;
   margin-top: 0;
   margin-bottom: 0;
   max-width: none;
@@ -902,8 +895,8 @@ label.error {
 
 .column,
 .columns {
-  padding-left: 0.9375rem;
-  padding-right: 0.9375rem;
+  padding-left: 1.0714285714rem;
+  padding-right: 1.0714285714rem;
   width: 100%;
   float: left;
 }
@@ -1064,8 +1057,8 @@ label.error {
   .column,
 .columns {
     position: relative;
-    padding-left: 0.9375rem;
-    padding-right: 0.9375rem;
+    padding-left: 1.0714285714rem;
+    padding-right: 1.0714285714rem;
     float: left;
   }
 
@@ -1258,8 +1251,8 @@ label.error {
   }
   .row.small-uncollapse > .column,
 .row.small-uncollapse > .columns {
-    padding-left: 0.9375rem;
-    padding-right: 0.9375rem;
+    padding-left: 1.0714285714rem;
+    padding-right: 1.0714285714rem;
     float: left;
   }
 }
@@ -1411,8 +1404,8 @@ label.error {
   .column,
 .columns {
     position: relative;
-    padding-left: 0.9375rem;
-    padding-right: 0.9375rem;
+    padding-left: 1.0714285714rem;
+    padding-right: 1.0714285714rem;
     float: left;
   }
 
@@ -1605,8 +1598,8 @@ label.error {
   }
   .row.medium-uncollapse > .column,
 .row.medium-uncollapse > .columns {
-    padding-left: 0.9375rem;
-    padding-right: 0.9375rem;
+    padding-left: 1.0714285714rem;
+    padding-right: 1.0714285714rem;
     float: left;
   }
 }
@@ -1926,8 +1919,8 @@ label.error {
   .column,
 .columns {
     position: relative;
-    padding-left: 0.9375rem;
-    padding-right: 0.9375rem;
+    padding-left: 1.0714285714rem;
+    padding-right: 1.0714285714rem;
     float: left;
   }
 
@@ -2120,8 +2113,8 @@ label.error {
   }
   .row.large-uncollapse > .column,
 .row.large-uncollapse > .columns {
-    padding-left: 0.9375rem;
-    padding-right: 0.9375rem;
+    padding-left: 1.0714285714rem;
+    padding-right: 1.0714285714rem;
     float: left;
   }
 }
@@ -2505,8 +2498,8 @@ td {
 
 /* Default Link Styles */
 a {
-  color: #354E60;
-  font-family: "maison-neue-book", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  color: #4d4d4d;
+  font-family: "univers-light", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   line-height: inherit;
   text-decoration: none;
   opacity: 0.8;
@@ -2520,8 +2513,8 @@ a img {
 
 .link--text {
   position: relative;
-  color: #354E60;
-  font-family: "maison-neue-book", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  color: #4d4d4d;
+  font-family: "univers-light", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   line-height: inherit;
   text-decoration: none;
 }
@@ -2536,7 +2529,7 @@ a img {
   content: "";
   width: 0%;
   height: 1px;
-  background: #354E60;
+  background: #4d4d4d;
   opacity: 0.3;
 }
 .link--text:hover:after, .link--text:focus:after {
@@ -2549,7 +2542,7 @@ a img {
   background: #FFFFFF;
 }
 .link--white {
-  font-family: "maison-neue-book", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "univers-light", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   color: white;
 }
 
@@ -2559,22 +2552,22 @@ p {
   font-weight: normal;
   font-size: 1rem;
   line-height: 1.6;
-  margin-bottom: 1.25rem;
+  margin-bottom: 1.4285714286rem;
   text-rendering: optimizeLegibility;
 }
 p.lead {
-  font-size: 1.21875rem;
+  font-size: 1.25rem;
   line-height: 1.6;
 }
 p aside {
-  font-size: 0.875rem;
+  font-size: 1rem;
   line-height: 1.35;
   font-style: italic;
 }
 
 /* Default header styles */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "maison-neue-book", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "univers-light", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   color: #222222;
@@ -2590,23 +2583,23 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
 }
 
 h1 {
-  font-size: 2.75rem;
+  font-size: 3rem;
 }
 
 h2 {
-  font-size: 1.6875rem;
+  font-size: 1.9285714286rem;
 }
 
 h3 {
-  font-size: 1.375rem;
+  font-size: 1.5714285714rem;
 }
 
 h4 {
-  font-size: 1.125rem;
+  font-size: 1.2857142857rem;
 }
 
 h5 {
-  font-size: 1.125rem;
+  font-size: 1.2857142857rem;
 }
 
 h6 {
@@ -2615,20 +2608,20 @@ h6 {
 
 .subheader {
   line-height: 1.4;
-  color: #6f6f6f;
+  color: #2D2D2D;
   font-size: 14px;
-  font-family: "maison-neue-mono", "Liberation Mono", Courier, monospace;
+  font-family: "univers-bold", "Liberation Mono", Courier, monospace;
   margin-top: 2rem;
   margin-bottom: 0.5rem;
-  text-transform: uppercase;
-  letter-spacing: 1.3;
+  text-transform: none;
+  letter-spacing: 0.1;
 }
 
 hr {
   border: solid #DDDDDD;
   border-width: 1px 0 0;
   clear: both;
-  margin: 1.25rem 0 1.1875rem;
+  margin: 1.4285714286rem 0 1.3571428571rem;
   height: 0;
 }
 hr.hr--clear {
@@ -2644,8 +2637,9 @@ i {
 
 strong,
 b {
-  font-family: "maison-neue-bold", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "univers-bold", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: bold;
+  font-size: 14px;
   line-height: inherit;
 }
 
@@ -2655,14 +2649,14 @@ small {
 }
 
 code {
-  font-family: "maison-neue-mono", "Liberation Mono", Courier, monospace;
+  font-family: "univers-bold", "Liberation Mono", Courier, monospace;
   font-weight: normal;
   color: #333333;
   background-color: #f8f8f8;
   border-width: 1px;
   border-style: solid;
   border-color: #dfdfdf;
-  padding: 0.125rem 0.3125rem 0.0625rem;
+  padding: 0.1428571429rem 0.3571428571rem 0.0714285714rem;
 }
 
 /* Lists */
@@ -2671,7 +2665,7 @@ ol,
 dl {
   font-size: 1rem;
   line-height: 1.6;
-  margin-bottom: 1.25rem;
+  margin-bottom: 1.4285714286rem;
   list-style-position: outside;
   font-family: inherit;
 }
@@ -2684,7 +2678,7 @@ ul.no-bullet {
 }
 ul.no-bullet li ul,
 ul.no-bullet li ol {
-  margin-left: 1.25rem;
+  margin-left: 1.4285714286rem;
   margin-bottom: 0;
   list-style: none;
 }
@@ -2692,7 +2686,7 @@ ul.no-bullet li ol {
 /* Unordered Lists */
 ul li ul,
 ul li ol {
-  margin-left: 1.25rem;
+  margin-left: 1.4285714286rem;
   margin-bottom: 0;
 }
 ul.square li ul, ul.circle li ul, ul.disc li ul {
@@ -2720,7 +2714,7 @@ ol {
 }
 ol li ul,
 ol li ol {
-  margin-left: 1.25rem;
+  margin-left: 1.4285714286rem;
   margin-bottom: 0;
 }
 
@@ -2730,7 +2724,7 @@ dl dt {
   font-weight: bold;
 }
 dl dd {
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.8571428571rem;
 }
 
 /* Abbreviations */
@@ -2738,7 +2732,7 @@ abbr,
 acronym {
   text-transform: uppercase;
   font-size: 90%;
-  color: #111111;
+  color: #2D2D2D;
   cursor: help;
 }
 
@@ -2751,13 +2745,13 @@ abbr[title] {
 
 /* Blockquotes */
 blockquote {
-  margin: 0 0 1.25rem;
-  padding: 0.5625rem 1.25rem 0 1.1875rem;
+  margin: 0 0 1.4285714286rem;
+  padding: 0.6428571429rem 1.4285714286rem 0 1.3571428571rem;
   border-left: 1px solid #DDDDDD;
 }
 blockquote cite {
   display: block;
-  font-size: 0.8125rem;
+  font-size: 0.9285714286rem;
   color: #555555;
 }
 blockquote cite:before {
@@ -2777,9 +2771,9 @@ blockquote p {
 /* Microformats */
 .vcard {
   display: inline-block;
-  margin: 0 0 1.25rem 0;
+  margin: 0 0 1.4285714286rem 0;
   border: 1px solid #DDDDDD;
-  padding: 0.625rem 0.75rem;
+  padding: 0.7142857143rem 0.8571428571rem;
 }
 .vcard li {
   margin: 0;
@@ -2787,7 +2781,7 @@ blockquote p {
 }
 .vcard .fn {
   font-weight: bold;
-  font-size: 0.9375rem;
+  font-size: 1.0714285714rem;
 }
 
 .vevent .summary {
@@ -2798,7 +2792,7 @@ blockquote p {
   text-decoration: none;
   font-weight: bold;
   border: none;
-  padding: 0 0.0625rem;
+  padding: 0 0.0714285714rem;
 }
 
 @media only screen and (min-width:40.063em) {
@@ -2807,23 +2801,23 @@ blockquote p {
   }
 
   h1 {
-    font-size: 3.375rem;
+    font-size: 3.7142857143rem;
   }
 
   h2 {
-    font-size: 2.3125rem;
+    font-size: 2.6428571429rem;
   }
 
   h3 {
-    font-size: 1.6875rem;
+    font-size: 1.9285714286rem;
   }
 
   h4 {
-    font-size: 1.4375rem;
+    font-size: 1.6428571429rem;
   }
 
   h5 {
-    font-size: 1.125rem;
+    font-size: 1.2857142857rem;
   }
 
   h6 {
@@ -2841,18 +2835,14 @@ blockquote p {
 }
 #header img {
   display: block;
-  height: 30px;
+  height: 20px;
   width: auto;
 }
 
 #home__header h1 {
-  max-width: 750px;
+  max-width: 800px;
   margin-bottom: 1em;
-}
-@media only screen and (max-width: 40em) {
-  #home__header h1 {
-    font-size: 2.3125rem;
-  }
+  font-size: 1.6428571429rem;
 }
 @media only screen and (min-width:64.063em) {
   #home__header h1 {
@@ -2867,6 +2857,9 @@ blockquote p {
   #work {
     margin-top: 4em;
   }
+}
+#work h3 {
+  font-size: 1.2857142857rem;
 }
 
 .work {
@@ -2888,13 +2881,13 @@ blockquote p {
 }
 @media only screen and (min-width:64.063em) {
   .work__overlay {
-    padding: 2em;
+    padding: 1.5em;
     opacity: 0;
   }
 }
 .work__nav--active a {
-  color: #111111;
-  border-bottom: 1px solid #111111;
+  color: #2D2D2D;
+  border-bottom: 1px solid #2D2D2D;
 }
 .work__nav ul {
   margin: 1em auto 2em;
@@ -2922,26 +2915,24 @@ blockquote p {
 .page__header {
   margin-bottom: 2em;
 }
-@media only screen and (max-width: 40em) {
-  .page__header h1 {
-    font-size: 1.6875rem;
-  }
+.page__header h2 {
+  font-size: 1.6428571429rem;
 }
 .page__type {
   display: inline-block;
   padding: 5px 7px;
-  border: 1px solid #354E60;
+  border: 1px solid #4d4d4d;
   border-radius: 10px;
-  color: #354E60;
+  color: #4d4d4d;
   font-size: 13px;
 }
 .page__display {
-  border: 20px solid #F5F5F5;
+  border: 20px solid #F4F4F4;
   padding: 0;
 }
 @media only screen and (min-width:64.063em) {
   .page__display {
-    border: 70px solid #F5F5F5;
+    border: 70px solid #F4F4F4;
   }
 }
 
@@ -2972,18 +2963,19 @@ blockquote p {
 }
 
 #footer {
-  background-color: #354E60;
+  background-color: #F4F4F4;
   padding: 2em 1em;
-  color: #FFFFFF;
-  font-family: "maison-neue-book", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  color: #888888;
+  font-family: "univers-light", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-size: 14px;
 }
 @media only screen and (min-width:64.063em) {
   #footer {
     padding: 4em 0;
   }
 }
-#footer h3 {
-  color: #FFFFFF;
+#footer h3, #footer a {
+  color: #2D2D2D;
 }
 
 /*# sourceMappingURL=app.css.map */

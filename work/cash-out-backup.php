@@ -10,8 +10,8 @@
 			<div class="row">
 				<div class="large-7 column">
 					<h3 class="subheader">Problem</h3>
-					<p>User problem: Users were confused and did not know when or how to get their money. <br/><br/>
-					Business problem: Cash out was one of Tala's top driver of global ticket to loan ratio, which indicated product defects and operational overload. 
+					<p><b>User problem:</b> Users were confused and did not know when or how to get their money. <br/>
+					<b>Business problem:</b> Cash out was one of Tala's top driver of global ticket to loan ratio, which indicated product defects and operational overload. 
 					</p>
 					<h3 class="subheader">Goal</h3>
 					<p>Provide users the appropriate information at the right time to cash out frictionlessly.</p>
@@ -45,8 +45,7 @@
 			<div class="row">
 				<div class="column">
 					<img src="/images/projects/cash-out/cash-out-old-1.jpg" alt="cash out old">
-				</div>
-				<div class="column">
+
 					<h3 class="subheader">Pain points</h3>
 					<ul>
 						<li>Designs were too text heavy for our users who skim</li>
@@ -80,7 +79,8 @@
 						<li>Users feel scared when they don't know the status of their loan between disbursement and pickup</li>
 					</ul>
 				</div>
-			
+				
+				
 			</div>
 					
 
@@ -201,9 +201,9 @@
 <div class="work__nav row">
 	<ul class="no-bullet">
 		<li>Other Projects:</li>
-		<li><a href="/work/loan-app" class="link--text">Loan App</a></li>
-		<li class="work__nav--active"><a href="/work/cash-out">Cash Out</a></li>
-		<li><a href="/work/checkout" class="link--text">Checkout</a></li>
+		<li><a href="/work/loan-app" >Loan App</a></li>
+		<li class="work__nav--active"><a href="/work/cash-out" >Cash Out</a></li>
+		<li><a href="/work/checkout" >Checkout</a></li>
 		<li><a href="/work/magic-ruler" class="link--text">AR Magic Ruler</a></li>
 		<li><a href="/work/mobile-tablet-filters" class="link--text">Mobile and Tablet Filters</a></li>
 		<li><a href="/work/item-page" class="link--text">Item Page</a></li>
