@@ -4,22 +4,22 @@
 	<div class="page row">
 		<div class="column">
 			<div class="page__header">
-				<h2>Samak</h2>
+				<h2>Mina Baie</h2>
 			</div>
 
 			<div class="row">
 				<div class="large-7 column">
 					<h3 class="subheader">Description</h3>
-					<p>Samak was a little project I started with my mom out of our pure love for crafting. I like to meddle in DIY projects, including jewelry making, while my mom--who had been sewing for over 20 years now--likes to knit, quilt, and tailor her own clothes. Her passion for creating was something that she inherited from my grandma, who used to make the most beautiful quilts. Though it wasn’t often, everytime my grandma would visit from Korea, the two of them spent hours and days making quilts for everything in our house. However, when my grandma passed away in 2016, I wanted to fill her void and continue the tradition to spend time making and creating with my mom, and this is how Samak came about. Samak was created for people with black thumbs like me. Unlike my mom, who loves to garden and hoard plants, I couldn’t even keep one succulent alive. Samak is a fabric version of our favorite cactuses that we have been selling on Etsy and at some pop up events.</p>
+					<p>Mina Baie is a modern day diaper bag brand for moms who hate diaper bags. The owner had approached me with some questions around some variant issues and inventory management they were having using Squarespace as their e-commerce platform. As a business owner, I knew that any manual work in a business is inefficient. I recommended that they migrate over to Shopify since their business was scaling and I knew Shopify would be a much better platform to manage their e-commerce business. I helped with the migration process and the design of their new website.</p>
 				</div>
 				<div class="large-4 column">
 					<h3 class="subheader">Year</h3>
-					<p>2017 - Present</p>
+					<p>2019</p>
 					<h3 class="subheader">Services</h3>
-					<p>Logo design, branding, product photography, packaging design</p>
+					<p>Web design, front-end development, Shopify setup</p>
 					<h3 class="subheader">Visit</h3>
 					<p>
-						<a href="http://samak.co/" class="link--text" target="_blank">Samak</a>
+						<a href="http://minabaie.com" class="link--text" target="_blank">Mina Baie</a>
 					</p>
 				</div>
 			</div>
@@ -59,6 +59,18 @@
 				</div>
 				<div class="column">
 					<img src="/images/projects/samak/samak-assembly-instructions.jpg" alt="samak assembly instructions">
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="large-7 column">
+					<h3 class="subheader">Results</h3>
+					<ul>
+						<li>Reduced cashout tickets by 20%</li>
+						<li>Reduced the number of steps by 50%</li>
+						<li>Increased conversion rate from loan offer qualified to cashout by 5%</li>
+					</ul>
+					
 				</div>
 			</div>
 		</div>
