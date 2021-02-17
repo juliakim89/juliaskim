@@ -27,48 +27,17 @@
 			<hr class="hr--clear">
 
 			<div class="row">
-				<div class="column">
-					<img src="/images/projects/samak/samak-photography.jpg" alt="samak photography">
+				<div class="large-8 large-centered column">
+					<img src="/images/projects/mina-baie/mina-baie-home.jpg" alt="mina baie desktop">
 				</div>
-				<div class="column">
-					<hr class="hr--clear">	
-				</div>
-				<div class="small-6 column column--no-padding-right">
-					<img src="/images/projects/samak/samak-logo-1.jpg" alt="samak logo">
-				</div>
-				<div class="small-6 column column--no-padding-left">
-					<img src="/images/projects/samak/samak-logo-2.jpg" alt="samak logo">
-				</div>
-				<div class="column">
-					<hr class="hr--clear">	
-				</div>
-				<div class="small-4 column">
-					<img src="/images/projects/samak/samak-product-01.jpg" alt="samak cactus">
-				</div>
-				<div class="small-4 column">
-					<img src="/images/projects/samak/samak-product-02.jpg" alt="samak cactus">
-				</div>
-				<div class="small-4 column">
-					<img src="/images/projects/samak/samak-product-03.jpg" alt="samak cactus">
-				</div>
-				<div class="column">
-					<hr class="hr--clear">	
-				</div>
-				<div class="column">
-					<img src="/images/projects/samak/samak-business-card.jpg" alt="samak business card">
-				</div>
-				<div class="column">
-					<img src="/images/projects/samak/samak-assembly-instructions.jpg" alt="samak assembly instructions">
-				</div>
+				
 			</div>
 
 			<div class="row">
 				<div class="large-7 column">
-					<h3 class="subheader">Results</h3>
+					<h3 class="subheader"></h3>
 					<ul>
-						<li>Reduced cashout tickets by 20%</li>
-						<li>Reduced the number of steps by 50%</li>
-						<li>Increased conversion rate from loan offer qualified to cashout by 5%</li>
+						
 					</ul>
 					
 				</div>
